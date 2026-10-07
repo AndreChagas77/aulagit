@@ -1,1 +1,1 @@
-print("Alteração commit")
+print("Alteração do commit corrigida")
