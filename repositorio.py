@@ -1,13 +1,13 @@
-from dotenv import load_dotenv
 import os
+from dotenv import load_dotenv
 
 load_dotenv()
 
-senha = os.getenv("SENHA")
+senha_correta = os.getenv("SENHA")
 
-print("Alteração do commit corrigida")
+senhadigitada = input("Digite a senha: ")
 
-if senha == "1234":
+if senhadigitada == senha_correta:
     print("Senha Correta")
 else:
     print("Senha Incorreta")
